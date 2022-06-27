@@ -1,0 +1,25 @@
+.container{
+    border-top: 5px solid lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 130px;
+}
+
+.text{
+    text-align: center;
+}
+
+.mediaContact{
+    margin-right: 20px;
+}
+
+.dev{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}

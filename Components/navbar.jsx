@@ -17,10 +17,10 @@ function navbar() {
        <Link href='/products/bombones'>Bombones</Link>
      </li>
      <li className={styles.listItems}>
-       <Link href='/products/todos'>Todos los productos</Link>
+       <Link href='/products/otros'>Otros Productos</Link>
      </li>
      <li className={styles.listItems}>
-       <Link href='/products/capacitaciones'>Capacitaciones</Link>
+       <Link href='/capacitaciones'>Capacitaciones</Link>
      </li>
    </ul>
   </div>

@@ -15,8 +15,7 @@ function intro() {
           className={styles.imagen}
           src='/imagenes/logoN.png' 
           alt='' 
-          width='100%' 
-          heigth='100%'
+         
           layout='fill'
           objectFit='contain'
            />
