@@ -3,9 +3,9 @@ export const data = [
         id: 1,
         name: 'tortas' ,
         title: 'Tortas',
-        desc: 'Pastelería Artesanal hecha con productos 100% frescos',
+        desc: 'El toque de dulzura que necesitas',
         video: '',
-        photo: 'https://images.pexels.com/photos/54632/cat-animal-eyes-grey-54632.jpeg?auto=compress&cs=tinysrgb&w=600',
+        photo: 'dressedcake.jpg',
         longdesc: 'Pasteleria Artesanal hecha con mucho amor para tus eventos especiales. Bodas, Aniversarios, Agasajos.',
         images:[
             {
@@ -14,12 +14,40 @@ export const data = [
         ]
     },
     {
-        id: 1,
-        name: 'tortas' ,
-        title: 'Tortas',
-        desc: 'Pastelería Artesanal hecha con productos 100% frescos',
+        id: 2,
+        name: 'alfajores' ,
+        title: 'Alfajores',
+        desc: 'Felicidad en cada mordida',
         video: '',
-        photo: '',
+        photo: 'cajaalfajores.jpg',
+        longdesc: 'Pasteleria Artesanal hecha con mucho amor para tus eventos especiales. Bodas, Aniversarios, Agasajos.',
+        images:[
+            {
+
+            }
+        ]
+    },
+    {
+        id: 3,
+        name: 'bombones' ,
+        title: 'Bombones',
+        desc: 'El capricho hecho dulce',
+        video: '',
+        photo: 'bombones.jpg',
+        longdesc: 'Pasteleria Artesanal hecha con mucho amor para tus eventos especiales. Bodas, Aniversarios, Agasajos.',
+        images:[
+            {
+
+            }
+        ]
+    },
+    {
+        id: 4,
+        name: 'productos' ,
+        title: 'Todos los Productos',
+        desc: 'Amarás nuestro sabor',
+        video: '',
+        photo: "tortaboda.jpg",
         longdesc: 'Pasteleria Artesanal hecha con mucho amor para tus eventos especiales. Bodas, Aniversarios, Agasajos.',
         images:[
             {
