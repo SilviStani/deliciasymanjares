@@ -11,6 +11,16 @@
 
 .cardS{
     flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link{
+    color: rgb(255, 127, 148);
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .imgContainer{
@@ -41,4 +51,32 @@
 
 .desc{
     font-size: 18px;
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    .title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .desc{
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cardS{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 18px;
+    }
 }

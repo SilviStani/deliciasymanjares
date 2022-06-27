@@ -8,7 +8,7 @@ const Product = ({product}) => {
         <div className={styles.container}>
             <div className={styles.cardS}>
                 <h1 className={styles.title}>{product.title}</h1>
-                <p className={styles.desc}>{product.longdesc}</p>
+                <p className={styles.desc}>{product.longdesc}<a href={product.web} passHref className={styles.link}>{product.web}</a></p>
                 <button className={styles.button}>
                     <Link href="https://wa.me/5493484506772" passHref target='_blank'>
                         Contactame

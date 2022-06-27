@@ -139,5 +139,42 @@ export const data = [
             }, 
             
         ]
+    },
+    {
+        id: 5,
+        name: 'capacitaciones' ,
+        title: 'Capacitaciones',
+        desc: 'Online',
+        video: '',
+        photo: "Gracias.png",
+        longdesc: 'Capacitacion online. Asesoramiento individual. Encontra mas info en: ',
+        web: 'http://localhost:3000/capacitaciones',
+        images:[
+            {
+                id:1 ,
+                url:'curso.webp'
+            },
+            {
+                id:2,
+                url:'curso2.jpeg'
+            },
+            {
+                id:3,
+                url:'curso3.jpeg'
+            },            
+            {
+                id:4,
+                url:'curso4.webp'
+            },            
+            {
+                id:5,
+                url:'curso5.webp'
+            },            
+            {
+                id:6,
+                url:'curso6.webp'
+            }, 
+            
+        ]
     }
 ]

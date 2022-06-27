@@ -25,3 +25,11 @@
 }
 
 
+@media screen and (max-width:480px){
+    .listItems{
+       display: none;
+    }
+    .container{
+        font-size: 15px;
+    }
+}
