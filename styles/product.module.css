@@ -21,6 +21,7 @@
     color: rgb(255, 127, 148);
     font-weight: bold;
     text-decoration: underline;
+    word-wrap: break-word;
 }
 
 .imgContainer{
@@ -74,10 +75,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: fit-content;
     }
     .button{
         margin-bottom: 10px;
         padding: 10px;
         font-size: 18px;
+    }
+    .link{
+        word-wrap: break-word;
     }
 }
