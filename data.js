@@ -148,7 +148,7 @@ export const data = [
         video: '',
         photo: "Gracias.png",
         longdesc: 'Capacitacion online. Asesoramiento individual. Encontra mas info en: ',
-        web: 'http://localhost:3000/capacitaciones',
+        web: 'https://deliciasymanjares.vercel.app/capacitaciones',
         images:[
             {
                 id:1 ,
