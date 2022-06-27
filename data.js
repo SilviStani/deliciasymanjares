@@ -147,7 +147,7 @@ export const data = [
         desc: 'Online',
         video: '',
         photo: "Gracias.png",
-        longdesc: 'Capacitacion online. Asesoramiento individual. Encontra mas info en: ',
+        longdesc: 'Modo Online. Encontra mas info en: ',
         web: 'https://deliciasymanjares.vercel.app/capacitaciones',
         images:[
             {
