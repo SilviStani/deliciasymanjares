@@ -21,7 +21,8 @@
     color: rgb(255, 127, 148);
     font-weight: bold;
     text-decoration: underline;
-    word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .imgContainer{
@@ -82,7 +83,10 @@
         font-size: 18px;
     }
     .link{
-        word-wrap: break-word;
+        width: 100px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
         font-weight: bold;
     }
 }
